@@ -1,0 +1,108 @@
+.background{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0,0,0,0.7);
+    z-index: 1000;
+
+
+}
+.modal-style{
+    position: fixed; 
+    top: 35%;
+    left: 5%;
+    transform: translate(-50% -50%);
+    padding: 90px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: 'black';
+    width: 1520px;
+
+}
+
+.btnmodal{
+    position: fixed; 
+    top: 31.5%;
+    left: 89.5%;
+    transform: translate(-50% -50%);
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin : 30px
+
+}
+h3{
+    font-family: sans-serif;
+    position: fixed; 
+    top: 31.5%;
+    left: 3.3%;
+    transform: translate(-50% -50%);
+    background-color: #1976d2;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin : 30px; 
+    width: 1672px;
+
+
+}
+
+.nome {
+    margin-left: 120px;
+}
+.idade{
+    margin-left: 480px;
+}
+.profissao{ 
+    margin-left: 840px;
+}
+.sexo{
+    margin-left: 1200px;
+}
+.aluno {
+    margin-left: 30px;
+}
+
+
+.btnTabela{
+    margin: 1px;
+    cursor: pointer;
+}
+
+.btnAdicionar{
+    margin: 0;
+    padding-top: 22px;
+    cursor: pointer;
+}
+
+.btnAddModal{
+
+    position: fixed; 
+    top: 51.5%;
+    left: 79.3%;
+    transform: translate(-50% -50%);
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+
+}
+.btnModalSalvar{
+    position: fixed; 
+    top: 51.5%;
+    left: 72.3%;
+    transform: translate(-50% -50%);
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+span{
+    font-size: 30px;
+    margin-left: 200px;
+}
+.spanNome {
+    margin-left: 5px;
+}
